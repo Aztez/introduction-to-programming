@@ -1,0 +1,18 @@
+Johdatus ohjelmointiin, kotitehtävä 2
+
+/* algoritmi pankkiautomaatille */
+1. Kysy käyttäjältä tilinumeroa
+2. Kysy käyttäjältä pin-koodia
+3. Kun pin oikein, etene kohtaan 5
+4. Kun pin väärin, ilmoita siitä käyttäjälle ja palaa kohtaan 2
+5. Tulosta valikko (a. Nosto b. Talletus c. Tilin saldo d. Lopeta)
+6. Lue käyttäjän valinta
+7. Jos a. Kysy käyttäjältä nostettavaa summaa
+8. Ilmoita käyttäjälle paljon hän on nostanut ja paljonko tilin saldo on
+9. Kysy käyttäjältä palataanko valikkoon vai lopetetaanko
+10. Jos b. Kysy käyttäjältä talletettavaa summaa
+11. Ilmoita käyttäjälle paljon hän on tallettanut ja paljonko tilin saldo on
+12. Kysy käyttäjältä palataanko valikkoon vai lopetetaanko
+13. Jos c. ilmoita käyttäjälle tilin saldo
+15. Kysy käyttäjältä palataanko valikkoon vai lopetetaanko
+16. Jos d. palaa kohtaan 1

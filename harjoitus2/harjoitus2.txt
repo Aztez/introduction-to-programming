@@ -1,0 +1,34 @@
+Johdatus ohjelmointiin harjoitus 2
+
+Tehtävä 1.
+/* Algoritmi työntekijälle maksettavan palakan määrästä*/
+
+#include <stdio.h> /* printf ja scanf */
+
+int main(void) 
+{
+   double tuntipalkka; /*tuntipalkka*/
+   double tuntienMäärä; /*tehtyjen tuntien määrä*/
+   double veroprosentti; /*työntekijän veroprosentti*/
+   double veroP; /*veron desimaalimuoto*/
+   double vero; /*verottajalle menevä osa*/
+   double palkka; /*lopullinen palkka verojen jälkeen*/
+
+   printf("Syota tuntipalkkasi: ");
+   scanf_s("%lf", &tuntipalkka);
+
+   printf("Syota tekemiesi tuntien maara: ");
+   scanf_s("%lf", &tuntienMäärä);
+
+   printf("Syota veroprosenttisi: ");
+   scanf_s("%lf", &veroprosentti);
+
+   veroP = veroprosentti / 100;
+   vero = tuntienMäärä * tuntipalkka * veroP;
+   palkka = tuntienMäärä * tuntipalkka - vero;
+
+printf("Veroa palkastasi meneee %.2lf euroa eli palkkasi on %.2lf euroa verojen jalkeen. ", vero, palkka);
+
+
+   return(0);
+}

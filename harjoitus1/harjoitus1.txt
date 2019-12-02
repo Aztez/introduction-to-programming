@@ -1,0 +1,23 @@
+Johdatus ohjelmointiin, harjoitus 1
+
+Tehtävä 1. a) b)
+
+/* Algoritmi työntekijälle maksettavan palkan määrästä */
+1. kysytään käyttäjältä tehtyjen tuntien määrä
+2. kysytään käyttäjältä tuntipalkka
+3. kysytään käyttäjältä veroprosentti
+4. veroP = veroprosentti / 100
+5. vero = tehtyjen tuntien määrä * tuntipalkka * veroP
+6. palkka = tehtyjen tuntien määrä * tuntipalkka - vero
+7. ilmoita käyttäjälle vero ja palkka
+8. palaa alkuun
+
+Tehtävä 2.
+
+/* Algoritmi, joka laskee kuinka kauan matka maasta Proxima Centauriin kestää äänen nopeudella */ 
+/* etäisyys = 4,2 valovuotta, nopeus = 343 m/s, valovuosi = 9,46 * 10¹⁵ metriä */
+1. matka = etäisyys * valovuosi
+2. kesto = matka / nopeus
+3. kestoVuosina = kesto * 3.16887646 * 10-8
+3. ilmoita käyttäjälle kestoVuosina
+4. palaa alkuun

@@ -1,4 +1,5 @@
 # introduction-to-programming
+
 This is repository for introduction to programming course.
 
 The course was held in the first year of studies and there I got the basic understading of programming with C.
